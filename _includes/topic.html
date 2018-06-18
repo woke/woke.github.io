@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+
+{% include header.html %}
+
+<html>
+<body>
+    {% include nav.html %}
+
+    <div class="col text-center intro-text intro-banner"id="intro-page">
+        <div id="centering-new-lines">
+            <br>
+        </div>
+        <p class="animated zoomIn" id="home-text">So you want to be woke on<br/> {{topic}}.</p>
+        
+  </div> 
+
+          <a id="scroll" href="#about">
+        <img height="100" width="100" src="{{site.url}}/img/arrow-white.svg"/> 
+        </a>
+
+
+
+
+
+          <div class="container-fluid">
+                <div class="row">
+                  <div class="col" id="about">
+                    <h2 id="about"> About The Topic </h2>
+                    <br/>
+                    <div class="card">
+                            <div class="card-header">
+                              What is {{title}}?
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">{{title}}</h5>
+                              <p class="card-text">{{definition}}</p>
+                              <a href="{{definition_link}}" class="btn btn-primary">Definition Source</a>
+                            </div>
+                          </div>
+                    <br/>
+
+                    <br/>
+                
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" id="resources">
+                        <h2> Resources</h2>
+                        <h4>Want to recommend more content? See <a href="/#faq">here</a> for how to submit.</h4><br/> 
+                        {{resources|safe or "We currently don't have any resources for this topic"}} 
+                        <p> Resource photos provided by <a href="https://unsplash.com/">Unsplash</a>. </p>
+                    </div>
+                </div>
+            </div> 
+
+      <script>
+        var colors = ['#F44336', '#2196F3', '#8BC34A', '#3F51B5','#673AB7', '#FFC107', '#2d3436', '#130f40',
+        '#6ab04c', '#000000', '#eb4d4b', '#30336b', '#7ed6df', '#ED4C67', '#EE5A24', '#e84118', '#00a8ff'];
+    var random_color = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = random_color;
+    </script>
+{% include footer.html %}
+</body>
+</html>
