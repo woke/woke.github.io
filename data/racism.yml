@@ -1,0 +1,42 @@
+data:
+  racism:
+  - content_link: https://groupthink.kinja.com/on-tone-policing-why-its-bullshit-and-why-you-need-to-1148310719
+    description: Have you ever told someone to calm down or that they were being "too
+      emotional?" If so, you should read this article to understand why that's problematic.
+    isIntersectional: true
+    social_media: https://twitter.com/lesleyclovesyou
+    submitted_by: Lesley Cordero
+    title: 'On Tone Policing: Why It''s Bullshit And Why You Need To Stop'
+  - content_link: https://www.nytimes.com/2015/06/24/magazine/racisms-psychological-toll.html
+    description: 'This interview discusses the intersection of mental health and being
+      black in America. '
+    isIntersectional: true
+    social_media: '#'
+    submitted_by: Lesley Cordero
+    title: "Racism\u2019s Psychological Toll"
+  - content_link: https://www.washingtonpost.com/opinions/who-benefits-from-affirmative-action-white-men/2017/08/11/4b56907e-7eab-11e7-a669-b400c5c7e1cc_story.html?noredirect=on&utm_term=.013a83a24094
+    description: Read more on how the intricacies of affirmative action.
+    isIntersectional: true
+    social_media: '#'
+    submitted_by: Lesley Cordero
+    title: "Who\u2019s benefiting from affirmative action? White men."
+  - content_link: https://www.theatlantic.com/education/archive/2017/07/internalizing-the-myth-of-meritocracy/535035/?utm_source=atlfb
+    description: A new study finds that believing society is fair can lead disadvantaged
+      adolescents to act out and engage in risky behavior.
+    isIntersectional: false
+    social_media: '#'
+    submitted_by: Lesley Cordero
+    title: Why the Myth of Meritocracy Hurts Kids of Color
+  - content_link: https://www.huffingtonpost.com/entry/4-black-women-writers-get-honest-about-mental-illness-and-race_us_5787dc6be4b0867123e04a83
+    description: A conversation about struggle, stigma, and lessons learned.
+    isIntersectional: true
+    social_media: '#'
+    submitted_by: Lesley Cordero
+    title: 4 Black Women Writers Get Honest About Mental Illness And Race
+  - content_link: https://www.huffingtonpost.com/julia-sharpelevine/selective-empathy-policin_b_9162530.html
+    description: 'Read about the ways black women aren''t provided the same level
+      of empathy. '
+    isIntersectional: true
+    social_media: '#'
+    submitted_by: Lesley Cordero
+    title: 'Selective Empathy: Policing Black Women with Mental Illness'

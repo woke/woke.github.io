@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+
+{% include "header.html" %}
+
+<html>
+<body>
+    {% include "nav.html" %}
+
+    <div class="col text-center intro-text"id="intro-page">
+        <div id="centering-new-lines">
+            <br>
+            {% if error %}
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                {{error}}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+               
+            {% endif %}
+        </div>
+        <p class="animated zoomIn" id="home-text">So you want to be woke on<br/> <span id="typed"></span></p>
+        
+        <div id="typed-strings" style="display: none;">
+        <p>racial identity.</p>
+        <p>mental health.</p>
+        <p>racism.</p>
+        <p>gentrification.</p>
+        <p>allyship.</p>
+        <p>feminism.</p>
+        <p>appropriation.</p>
+        <p>inclusivity.</p>
+        <p>islamophobia.</p>
+        <p>socioeconomics.</p>
+        <p>ableism.</p>
+        <p>fetishism.</p>
+        </div>
+
+  </div> 
+
+          <a id="scroll" href="#about">
+        <img height="100" width="100" src="{{url_for('static', filename='img/arrow-white.svg')}}"/> 
+        </a>
+
+                {% include "about.html" %}
+                {% include "featured-topics.html" %}
+                {% include "faq.html" %}
+                {% include "team.html" %}
+
+    <!-- Typed.js animation-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.7/typed.min.js'></script>
+    <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          startDelay: 3,
+          backSpeed: 3,
+          typeSpeed: 50,
+          loop: true,
+        });
+          
+    </script>
+
+
+ 
+{% include "footer.html" %}
+
+
+</body>
+</html>

@@ -11,26 +11,37 @@ and for those interesting in learning, provide an initial set of links to assist
 To submit content to be featured on the site, click [here](http://bit.ly/wokecontent)
 
 ## Structure
-This site has been made as a Flask app (see Flask branch) and as a Jekyll site. The main directories within the
-Jekyll version of the site are as follows:
 
 ```bash
 ├── README.md         # This file
-├── CONTRIBUTING.md   # How to contribute to this project's codebase
-├── _layouts/         # General site design HTMLs 
-├── 404/credit.html   # 404 page and link to tools used in creation of the site
-├── index.md          # Site homepage
+├── requirements.txt  # Libraries used to build the site
+├── Procfile          # Used when deploying the website to production
+├── app.py            # Handles site routing
 ├── card.py           # Generates HTML for resource cards shown on site
+├── definitions.py    # Stores definitions and their sources for site topics
 ├── update_resources.py # Converts submissions from http:bit.ly/wokecontent to .yml files used on site
-├── _data/             # .yml files for saving resource data that is displayed on site to users
-├── _includes/         # HTML templates
-├── img/              # Images/logos
-├── topics/           # HTML for all of the topics pages on the site
-└── css/              # Site CSS
+├── data              # .yml files for saving resource data that is displayed on site to users
+├── templates/         # HTML files for the site
+└── static/             
+    ├── style.css     # Site CSS
+    ├── img/          # Images/logos
 ```
 
+## Technology Stack
+Below are the core libraries used in building the site.
+
+### Python 3
+So You Want To Be Woke's website is written in Python 3. 
+
+### Flask
+Flask is powerful micro web-framework that makes it easy to get a server-based Python app up and running quickly. 
+
+### Pandas
+A super helpful library that is used in this project for reading in .csv files of user submissions
+
 ## Credits
-The following tools were used to help make this site:
+The following tools/pens were used to help make this site:
 * https://github.com/mattboldt/typed.js 
+* https://flatuicolors.com/
 * https://codepen.io/ibanez182/pen/qZOvNj
 * https://codepen.io/duness/pen/vezOYW

@@ -1,8 +1,7 @@
 import pandas as pd
 import validators
 import yaml
-import sys
-#from definitions import *
+from definitions import *
 
 #validate that user submitted correctly formatted link
 def validate_link(link):
@@ -17,25 +16,23 @@ def is_duplicate_link(link, data):
 
 #update .yml file with new content
 def update_yml(data, topic):
-    file_path = "_data/" + topic + ".yml"
-    try:
-        with open(file_path, 'r') as yml_data:
+    file_path = "data/" + topic + ".yml"
+    with open(file_path, 'r') as yml_data:
+        try:
             current_content = yaml.safe_load(yml_data)
-            if (data not in current_content['data'] 
-            and not is_duplicate_link(data['content_link'], current_content['data'])):
-                current_content['data'].append(data)
+            if (data not in current_content['data'][topic] 
+            and not is_duplicate_link(data['content_link'], current_content['data'][topic])):
+                current_content['data'][topic].append(data)
                 with open(file_path, 'w') as outfile:
                     yaml.dump(current_content, outfile, default_flow_style=False)
-    except:
-        output_data = {}
-        output_data['data'] = [data]
-        with open(file_path, 'w') as new_yml_data:
-            yaml.dump(output_data, new_yml_data, default_flow_style=False)
-        print("Made a new file for {}".format(data['title']))
+            else:
+                print(data['title'] + " is already saved as a resource.")
+        except:
+            print("Failed to update .yml file")
 
 #iterates over csv file of submitted content and adds to related .yml file
-def main(argv):
-	df = pd.read_csv(argv[1])
+def main():
+	df = pd.read_csv("Submit to So You Want to be Woke  (Responses) - Form Responses 1.csv")
 	for index, row in df.iterrows():
 	    content = {}
 	    content['submitted_by'] = row['Your Name']
@@ -48,4 +45,4 @@ def main(argv):
 	    update_yml(content, topic)
 
 
-main(sys.argv)
+main()

@@ -1,0 +1,60 @@
+data:
+  inclusivity:
+  - content_link: https://hbr.org/2014/06/diversity-is-useless-without-inclusivity
+    description: This article provides a clear explanation of why diversity relies
+      on inclusion and how that is needed in work environments.
+    img_link: null
+    isIntersectional: false
+    social_media: https://twitter.com/WillEssilfie
+    submitted_by: Will Essilfie
+    title: Diversity is Useless without Inclusivity
+  - content_link: https://opensource.com/article/17/9/diversity-and-inclusion-innovation
+    description: '12 recommendations on how to make your initiatives more diverse
+      and inclusive. '
+    isIntersectional: false
+    social_media: '#'
+    submitted_by: Lesley Cordero
+    title: 'Diversity and inclusion: Stop talking and do your homework'
+  - content_link: https://medium.com/@nmsanchez/which-women-in-tech-371e721e71c4
+    description: Supporting women in tech is critical and evident. Yet many of the
+      strategies in place often fail women of color. Read this to better understand
+      the the intersectionality of women and people of color and supporting efforts
+      to increase their representation in industry.
+    isIntersectional: true
+    social_media: https://twitter.com/lesleyclovesyou
+    submitted_by: Lesley Cordero
+    title: Which Women in Tech?
+  - content_link: https://medium.com/this-is-hard/ffffff-diversity-1bd2b3421e8a
+    description: Understanding intersectionality is crucial, yet to many, it is often
+      ignored. In this piece, EricaJoy articulates the struggle of companies only
+      looking at diversity of women and failing to understand different subsets, such
+      as women of color, that are often marginalized for their gender and race, and
+      often not discussed in diversity efforts.
+    isIntersectional: true
+    social_media: https://twitter.com/WillEssilfie
+    submitted_by: Will Essilfie
+    title: '#FFFFFF Diversity'
+  - content_link: https://www.usatoday.com/story/tech/columnist/2015/02/12/women-of-color-diversity-tech-silicon-valley-nicole-sanchez/23298945/
+    description: "\"If a \"women in tech\" event is going to be comprised of white\
+      \ women, be clear. And if calling an event \"white women in tech\" makes you\
+      \ uncomfortable, there is more work to do.\"\n In this article, Sanchez provides\
+      \ clear approaches for supporting women of color in the tech industry."
+    isIntersectional: true
+    social_media: https://twitter.com/lesleyclovesyou
+    submitted_by: Lesley Cordero
+    title: More white women does not equal tech diversity
+  - content_link: https://byrslf.co/the-women-in-tech-movement-is-victim-blaming-bullshit-1861e6fffedf
+    description: Hosting more events for women in tech is nice, but does little to
+      impact culture. This article dives into actionable steps to make the tech sector
+      more inclusive to women.
+    isIntersectional: false
+    social_media: https://www.twitter.com/WillEssilfie
+    submitted_by: Will Essilfie
+    title: "The\u201CWomen in Tech\u201D movement is full of victim blaming bullshit"
+  - content_link: https://ada.is/blog/2018/04/16/help-someone-has-pointed-out-my-conference-has-diversity-issues/
+    description: Looking for tips on how to organize a diverse and inclusive tech
+      conference? Read these tips by Ada Cannon.
+    isIntersectional: true
+    social_media: https://twitter.com/lesleyclovesyou
+    submitted_by: Lesley Cordero
+    title: "\u201CHelp! someone has pointed out my conference has diversity issues!\""

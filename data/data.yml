@@ -1,0 +1,24 @@
+data:
+  racial_identity:
+    - submitted_by: Will Essilfie
+      title: Hi Lesley
+      description: THIS IS A POST THAT WILL HAVE ACTUAL CONTENT EVENTUALLY
+      content_link: https://blavity.com
+      isIntersectional: True
+      img_link: 
+    - submitted_by: Yefri Gaitan
+      title: YEFRI IS WORKING AT IBM!!!!!!!!!
+      description: OMG YEFRI IS AT IBM BUILDING ADI COIN AND TAKING OVER THE WORLD
+      content_link: https://via.placeholder.com/300x300
+      isIntersectional: True
+    - submitted_by: Lesley Cordero
+      title: WILL was here!
+      description: this is me coding stuff even though I don't really do web dev. but here we are!!! 
+      content_link: https://via.placeholder.com/300x300
+      isIntersectional: False
+    - submitted_by: Joshua Burton
+      title: THIS IS  ARESULT
+      description: RESULTS LOAD UP HERE 
+      content_link:
+      isIntersectional:      
+  
