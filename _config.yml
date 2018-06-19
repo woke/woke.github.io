@@ -17,7 +17,7 @@ title: So You Want To Be Woke
 description: >- # this means to ignore newlines until "baseurl:"
   The path to becoming woke is hard; this site’s meant to help you get there.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://soyouanttobewoke.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adicu
 github_username:  woke
 resource_images: ['https://source.unsplash.com/600x300/?african%20american',
