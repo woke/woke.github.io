@@ -61,8 +61,6 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-
-
 </head>
 
 
@@ -71,10 +69,9 @@
 <body>
     
 
-    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark nav-fill" id="intro">
-
-            <a class="navbar-brand" href="/">
-                    <img src="http://localhost:4000/img/logo.png" width="222" height="95" alt="Site logo">
+      <nav class="navbar navbar-expand-lg navbar-custom navbar-dark nav-fill" id="intro">
+            <a class="navbar-brand" href="/"> 
+              <span id="woke-logo-text"> So You Want To Be<br><span id="woke-big">Woke</span> </span> 
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -105,18 +102,19 @@
                     <a class="dropdown-item" target="__blank "href="http://bit.ly/wokecontent">Contribute</a>
                   </div>
 
-                  <li class="nav-item">
+                  <!--<li class="nav-item">
                   <a class="nav-link" href="/#about">About</a>
-                </li>
+                </li> -->
                 
-                  <li class="nav-item">
-                        <a class="nav-link" href="/#faq">FAQ</a>
-                    </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/faq">FAQ</a>
+                </li>
 
-                  <li class="nav-item">
-                        <a class="nav-link" href="/#team">Team</a>
-                    </li>
-
+                <li class="nav-item">
+                  <a class="nav-link" target="__blank" href="http://bit.ly/wokecontent">Submit</a>
                 </li>
               </ul>
 
@@ -124,17 +122,20 @@
           </nav>
 
 
-<div class="col text-center intro-text intro-banner"id="intro-page">
+<div class="text-center intro-text intro-banner"id="intro-page">
     <div id="centering-new-lines">
         <br>
     </div>
     <p class="animated zoomIn" id="home-text">So you want to be woke on<br/> Socioeconomic Privilege.</p>
     
+    <div id="down-arrow">
+  <a href="#about">
+    <img height="100" width="100" src="/img/arrow-white.svg"/> 
+  </a>
+</div>
 </div> 
 
-      <a id="scroll" href="#about">
-    <img height="100" width="100" src="/img/arrow-white.svg"/> 
-    </a>
+
 
 
 
@@ -170,7 +171,7 @@
 
   <div class="card">
     <div class="card-img-body">
-      <img class="card-img" src="https://source.unsplash.com/600x300/?african%20american" alt="Stockholder Image">
+      <img class="card-img" src="https://source.unsplash.com/600x300/?team" alt="Stockholder Image">
     </div>
     <div class="card-body">
       <h4 class="card-title">Privilege and inequality in Silicon Valley</h4>
@@ -190,11 +191,10 @@
 </div> 
       <script>
         var colors = ['#F44336', '#2196F3', '#8BC34A', '#3F51B5','#673AB7', '#FFC107', '#2d3436', '#130f40',
-        '#6ab04c', '#000000', '#eb4d4b', '#30336b', '#7ed6df', '#ED4C67', '#EE5A24', '#e84118', '#00a8ff'];
+        '#6ab04c', '#000000', '#eb4d4b', '#30336b', '#ED4C67', '#EE5A24', '#e84118', '#CC0033'];
     var random_color = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = random_color;
     </script>
-<hr>
 <footer class="bd-footer text-white">           
         <ul class="nav">
           <li class="nav-item ml-auto">
@@ -204,21 +204,23 @@
             <a id="footer-link" class="nav-link" href="http://bit.ly/wokecontent">Contribute</a>
           </li>
           <li class="nav-item">
-            <a id="footer-link" class="nav-link" href="/about/credits">Credits</a>
+            <a id="footer-link" class="nav-link" href="/credits">Credits</a>
           </li>
           <li class="nav-item">
-            <a id="footer-link" class="nav-link" href="https://www.buymeacoffee.com/woke">Support</a>
+            <a id="footer-link" class="nav-link" target="__blank" href="https://www.buymeacoffee.com/woke">Donate</a>
           </li>
 
       </ul>
 
     </footer>
 
-<!-- Required to go with Bootstrap 4-->
+
+
+
+<!-- Required to go with plain Bootstrap 4-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
 </body>
 </html>

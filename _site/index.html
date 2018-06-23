@@ -62,8 +62,6 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-
-
 </head>
 
 
@@ -72,10 +70,9 @@
 <body>
     
 
-    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark nav-fill" id="intro">
-
-            <a class="navbar-brand" href="/">
-                    <img src="http://localhost:4000/img/logo.png" width="222" height="95" alt="Site logo">
+      <nav class="navbar navbar-expand-lg navbar-custom navbar-dark nav-fill" id="intro">
+            <a class="navbar-brand" href="/"> 
+              <span id="woke-logo-text"> So You Want To Be<br><span id="woke-big">Woke</span> </span> 
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -106,18 +103,19 @@
                     <a class="dropdown-item" target="__blank "href="http://bit.ly/wokecontent">Contribute</a>
                   </div>
 
-                  <li class="nav-item">
+                  <!--<li class="nav-item">
                   <a class="nav-link" href="/#about">About</a>
-                </li>
+                </li> -->
                 
-                  <li class="nav-item">
-                        <a class="nav-link" href="/#faq">FAQ</a>
-                    </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/faq">FAQ</a>
+                </li>
 
-                  <li class="nav-item">
-                        <a class="nav-link" href="/#team">Team</a>
-                    </li>
-
+                <li class="nav-item">
+                  <a class="nav-link" target="__blank" href="http://bit.ly/wokecontent">Submit</a>
                 </li>
               </ul>
 
@@ -126,13 +124,19 @@
 
 
 
-    <div class="col text-center intro-text"id="intro-page">
+    <div class="text-center intro-text"id="intro-page">
         <div id="centering-new-lines">
             <br>
             
         </div>
         <p class="animated zoomIn" id="home-text">So you want to be woke on<br/> <span id="typed"></span></p>
         
+        <div id="down-arrow">
+  <a href="#about">
+    <img height="100" width="100" src="/img/arrow-white.svg"/> 
+  </a>
+</div>
+
         <div id="typed-strings" style="display: none;">
         <p>racial identity.</p>
         <p>mental health.</p>
@@ -140,31 +144,24 @@
         <p>gentrification.</p>
         <p>allyship.</p>
         <p>feminism.</p>
-        <p>appropriation.</p>
         <p>inclusivity.</p>
-        <p>islamophobia.</p>
-        <p>socioeconomics.</p>
         <p>ableism.</p>
-        <p>fetishism.</p>
+        <p></p>
         </div>
 
   </div> 
 
-          <a id="scroll" href="#about">
-        <img height="100" width="100" src="/img/arrow-white.svg"/> 
-        </a>
 
                 <div class="row">
   <div class="col" id="about">
-    <h2>About </h2>
-    <p id="about"> &emsp; To be woke is to be aware of the injustices in our society and actively challenge them as explained in Raven Cras's <a href="https://blavity.com/what-does-it-mean-to-be-woke/"> Blavity op-ed</a>. The process of becoming woke can be long and can be challenging especially if you don't know where to start. </p> 
+    <h2>On Wokeness</h2>
 
-    <p id="about"> &emsp; This site was created to help people become more aware of the issues facing different marginalized communities.
-    Some of these topics may be ones you are aware of and others not.
-    By making this site, we hope to help people affected by these issues have an easy reference to  provide people who may ask them to educate them on the topic and for those interesting in learning, provide an initial set of links to assist them in their progress to becoming woke.</p>
-
-    <p id="about">To get started, check out one of the featured topics <a href="#featured-topics">below</a> or the full set of sections at the top of the <a href="#">page</a>.
-
+    <blockquote class="blockquote text-center">
+  <p class="mb-0"><span id="about-quote">&ldquo;</span>[To be woke] is an encouragement for people to wake up and question dogmatic social norms. It requires an active process of deprogramming social conditionings focusing on consistent efforts to challenge the universal infractions we are all subjected to.
+  	<span id="about-quote">&rdquo;</span></p>
+  	<footer class="blockquote-footer">Raven Cras,<cite title="Source Title"><a href="https://blavity.com/what-does-it-mean-to-be-woke/">"What does it mean to be "woke?"</a></cite></footer>
+	</blockquote>
+ 	<p id="about-text"> The goal of this site is simple: to provide a way to educate yourself on your privileges and issues affecting different marginalized communities.<br>Start exploring this site through the featured topics below or the other topics listed at the top of the <a href="#">page</a>. </p>
     </div>
 </div>
                 <div class="row">
@@ -210,84 +207,8 @@
       </div> 
 
     </div>
-
-    <p id="other-topics">For other topics, see the current topics under the <a href="/#">Topics</a> dropdown at the top of the page.</p>
     </div>
 </div>
-                <div class="row">
-    <div class="col" id="faq">
-        <h2>Frequently Asked Questions</h2>
-
-        <h3 >Why is this site called So You Want to be Woke?</h3>
-        <p id="faq-q">This site came out of a need we noticed happening around us: people saying problematic things or being
-        unaware of the various privileges they had. We wanted a way to help educate people on different topics to make it easier to give someone an initial set of resources to get "woke" on a topic. The site'sname is meant to be fun and play on the reoccurring idea of becoming more aware of issues within our society. We hope this site is helpful to those who visit it as they learn about injustices people around them may face and how they can be better allies for these people. </p>
-
-        <h3>How do I contribute content?</h3>
-        <p id="faq-q">We're always excited to showcase new content on the website.
-            To submit content, use this <a href="https://goo.gl/forms/RHFMLtUwCefzVY722">form</a>.
-        </p>
-
-        <h3> How do I contribute to the site's development?</h3>
-        <p id="faq-q"> The code for this website is open-sourced and can be found on <a href="https://github.com/woke/woke.github.io"> GitHub</a>. To make an update to the site's code, make and submit a pull request.
-        Alternatively, you can support site development/content sourcing by donating <a href="https://www.buymeacoffee.com/woke">here</a>.
-
-        </p>
-        
-        <h3 id="intersectionality">What about intersectionality?</h3>
-        <p id="faq-q">This is a valid and important question. While this site is organized by individual topics, it is important to understand that a person can be impacted by multiple of these topics. For instance, a black man may face racial discrimination, but a black, disabled women may face discrimination both racially and based on their gender. Select content in given topics attempt to discuss these types of issues and are denoted with a green "Intersectional" flag. </p>
-
-        <h3>Who is the team behind the site?</h3>
-        <p id="faq-q">You can learn more about our team by visiting our <a href="/#team">team</a> section below.</p>
-     
-    </div>
-</div>
-</div>
-                <h2 id="team"> The Team </h2>
-<div class="card-deck" id="team-cards">
-  <div class='card mx-auto'>
-  <div class='card-img-top'>
-    <img alt='Picture of Team Member' class='img-fluid' src='/img/will.jpg'>
-  </div>
-  <div class='card-block'>
-    <h4 class='card-title'>Will Essilfie</h4>
-    <p class='card-text'>Will is a graduate of Columbia University where he studied Computer Science and served as a campus publication Editor in Chief as well as working on ADI. He's now working as a Data Scientist in the Bay Area. </p>
-    <a class='btn btn-primary' target="_blank" href='https://twitter.com/WillEssilfie'>
-    <i class="fab fa-twitter"></i>
-      
-    </a>
-  </div>
-</div>
-
-  <div class='card mx-auto'>
-  <div class='card-img-top'>
-    <img alt='Picture of Team Member' class='img-fluid' src='/img/lesley.jpg'>
-  </div>
-  <div class='card-block'>
-    <h4 class='card-title'>Lesley Cordero</h4>
-    <p class='card-text'>Lesley is an ardent advocate for increasing diversity within the technology sector. Studying Computer Science at
-    Columbia, she has been an active member of Columbia Quest Scholars and ADI.</p>
-    <a class='btn btn-primary' target="_blank" href='https://twitter.com/lesleyclovesyou'>
-      <i class="fab fa-twitter"></i>
-    </a>
-  </div>
-</div>
-
-  <div class='card mx-auto'>
-  <div class='card-img-top'>
-    <img alt='Picture of Team Member' class='img-fluid' src='/img/yefri.jpg'>
-  </div>
-  <div class='card-block'>
-    <h4 class='card-title'>Yefri Gaitan</h4>
-    <p class='card-text'>Yefri is a current Computer Science student at Columbia. He enjoys programming, and ramen and is a part of Columbia's ADI committee.</p>
-    <a class='btn btn-primary' target="_blank" href='https://twitter.com/YefriGaitan1'>
-      <i class="fab fa-twitter"></i>
-    </a>
-  </div>
-</div>
-
-  
-</div>
-
 
     <!-- Typed.js animation-->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.7/typed.min.js'></script>
@@ -304,7 +225,6 @@
 
 
  
-<hr>
 <footer class="bd-footer text-white">           
         <ul class="nav">
           <li class="nav-item ml-auto">
@@ -314,21 +234,23 @@
             <a id="footer-link" class="nav-link" href="http://bit.ly/wokecontent">Contribute</a>
           </li>
           <li class="nav-item">
-            <a id="footer-link" class="nav-link" href="/about/credits">Credits</a>
+            <a id="footer-link" class="nav-link" href="/credits">Credits</a>
           </li>
           <li class="nav-item">
-            <a id="footer-link" class="nav-link" href="https://www.buymeacoffee.com/woke">Support</a>
+            <a id="footer-link" class="nav-link" target="__blank" href="https://www.buymeacoffee.com/woke">Donate</a>
           </li>
 
       </ul>
 
     </footer>
 
-<!-- Required to go with Bootstrap 4-->
+
+
+
+<!-- Required to go with plain Bootstrap 4-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
 
 

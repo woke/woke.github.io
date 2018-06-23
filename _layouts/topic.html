@@ -5,17 +5,16 @@
 <html>
 <body>
     {% include nav.html %}
-<div class="col text-center intro-text intro-banner"id="intro-page">
+<div class="text-center intro-text intro-banner"id="intro-page">
     <div id="centering-new-lines">
         <br>
     </div>
     <p class="animated zoomIn" id="home-text">So you want to be woke on<br/> {{page.title}}.</p>
     
+    {% include down-arrow.html %}
 </div> 
 
-      <a id="scroll" href="#about">
-    <img height="100" width="100" src="{{site.baseurl}}/img/arrow-white.svg"/> 
-    </a>
+
 
 
 
@@ -55,7 +54,7 @@
 </div> 
       <script>
         var colors = ['#F44336', '#2196F3', '#8BC34A', '#3F51B5','#673AB7', '#FFC107', '#2d3436', '#130f40',
-        '#6ab04c', '#000000', '#eb4d4b', '#30336b', '#7ed6df', '#ED4C67', '#EE5A24', '#e84118', '#00a8ff'];
+        '#6ab04c', '#000000', '#eb4d4b', '#30336b', '#ED4C67', '#EE5A24', '#e84118', '#CC0033'];
     var random_color = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = random_color;
     </script>

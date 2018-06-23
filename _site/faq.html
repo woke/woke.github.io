@@ -62,8 +62,6 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-
-
 </head>
 
 
@@ -71,10 +69,9 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark nav-fill" id="intro">
-
-            <a class="navbar-brand" href="/">
-                    <img src="http://localhost:4000/img/logo.png" width="222" height="95" alt="Site logo">
+      <nav class="navbar navbar-expand-lg navbar-custom navbar-dark nav-fill" id="intro">
+            <a class="navbar-brand" href="/"> 
+              <span id="woke-logo-text"> So You Want To Be<br><span id="woke-big">Woke</span> </span> 
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -105,18 +102,19 @@
                     <a class="dropdown-item" target="__blank "href="http://bit.ly/wokecontent">Contribute</a>
                   </div>
 
-                  <li class="nav-item">
+                  <!--<li class="nav-item">
                   <a class="nav-link" href="/#about">About</a>
-                </li>
+                </li> -->
                 
-                  <li class="nav-item">
-                        <a class="nav-link" href="/#faq">FAQ</a>
-                    </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/faq">FAQ</a>
+                </li>
 
-                  <li class="nav-item">
-                        <a class="nav-link" href="/#team">Team</a>
-                    </li>
-
+                <li class="nav-item">
+                  <a class="nav-link" target="__blank" href="http://bit.ly/wokecontent">Submit</a>
                 </li>
               </ul>
 
@@ -125,54 +123,34 @@
 
 
 
-<!-- Home splash (full screen) -->
-<div class="home-img">
-  <div class="browser">
-  <div class="chrome">
-    <a href="#" class="red"></a>
-    <a href="#" class="amber"></a>
-    <a href="#" class="green"></a>
-    <div class="url"></div>
-  </div> 
+	<div class="row">
+    <div class="col" id="faq">
+        <h2>Frequently Asked Questions</h2>
 
-  
-   <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: left;
-    color: white;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-    font-weight: 400;
-  }
+        <h3 >Why is this site called So You Want to be Woke?</h3>
+        <p id="faq-q">This site came out of a need we noticed happening around us: people saying problematic things or being
+        unaware of the various privileges they had. We wanted a way to help educate people on different topics to make it easier to give someone an initial set of resources to get "woke" on a topic. The site'sname is meant to be fun and play on the reoccurring idea of becoming more aware of issues within our society. We hope this site is helpful to those who visit it as they learn about injustices people around them may face and how they can be better allies for these people. </p>
 
+        <h3>How do I contribute content?</h3>
+        <p id="faq-q">We're always excited to showcase new content on the website.
+            To submit content, use this <a href="https://goo.gl/forms/RHFMLtUwCefzVY722">form</a>.
+        </p>
 
-</style>
+        <h3> How do I contribute to the site's development?</h3>
+        <p id="faq-q"> The code for this website is open-sourced and can be found on <a href="https://github.com/woke/woke.github.io"> GitHub</a>. To make an update to the site's code, make and submit a pull request.
+        Alternatively, you can support site development/content sourcing by donating <a href="https://www.buymeacoffee.com/woke">here</a>.
 
-<div class="container">
-  <h1>Credits</h1>
-  <p> Parts of this site rely on designs/images from the following orgs/people</p>
-  <ul>
-    <li> https://github.com/FortAwesome/Font-Awesome </li>
-    <li> https://github.com/mattboldt/typed.js </li>
-    <li> https://flatuicolors.com/ </li>
-    <li> https://codepen.io/ibanez182/pen/qZOvNj </li>
-    <li> https://codepen.io/duness/pen/vezOYW </li>
-    <li> https://www.blindsci.com/panther </li>
-  </ul>
+        </p>
+        
+        <h3 id="intersectionality">What about intersectionality?</h3>
+        <p id="faq-q">This is a valid and important question. While this site is organized by individual topics, it is important to understand that a person can be impacted by multiple of these topics. For instance, a black man may face racial discrimination, but a black, disabled women may face discrimination both racially and based on their gender. Select content in given topics attempt to discuss these types of issues and are denoted with a green "Intersectional" flag. </p>
+
+        <h3>Who is the team behind the site?</h3>
+        <p id="faq-q">You can learn more about our team by visiting our <a href="/#team">team</a> section below.</p>
+     
+    </div>
 </div>
-
-
-  </div>
-</div>  
-
-
-<hr>
+</div>
 <footer class="bd-footer text-white">           
         <ul class="nav">
           <li class="nav-item ml-auto">
@@ -182,21 +160,23 @@
             <a id="footer-link" class="nav-link" href="http://bit.ly/wokecontent">Contribute</a>
           </li>
           <li class="nav-item">
-            <a id="footer-link" class="nav-link" href="/about/credits">Credits</a>
+            <a id="footer-link" class="nav-link" href="/credits">Credits</a>
           </li>
           <li class="nav-item">
-            <a id="footer-link" class="nav-link" href="https://www.buymeacoffee.com/woke">Support</a>
+            <a id="footer-link" class="nav-link" target="__blank" href="https://www.buymeacoffee.com/woke">Donate</a>
           </li>
 
       </ul>
 
     </footer>
 
-<!-- Required to go with Bootstrap 4-->
+
+
+
+<!-- Required to go with plain Bootstrap 4-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
  
 
 
