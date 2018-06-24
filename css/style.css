@@ -4,7 +4,6 @@
 }
 body {
     margin: 0%;
-    /*background-color:#3498db; */ 
     background-color: #0099FF;  
     overflow-x: hidden;
     font-weight: normal;
@@ -70,6 +69,23 @@ hr {
 
 footer {
   padding-top: -3px;
+  color: white;
+}
+footer li {
+  color: white;
+}
+
+#footer-information {
+  width: 100vw;
+}
+#footer-information ul {
+  vertical-align: top;
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 10px;
+
 }
 
 #intro {
@@ -107,16 +123,6 @@ footer {
     line-height: 22px;
     letter-spacing: -0.0042117em;
 }
-
-/*#team {
-    background-color: #2ecc71;
-    width: 100%;
-    color: white;
-    word-wrap: break-word;
-    line-height: 22px;
-    letter-spacing: -0.0042117em;
-    padding-bottom: 10px;
-} */
 
 #faq-q {
   padding-left: 10px;
@@ -216,6 +222,10 @@ footer {
     font-weight: normal;
 }
 
+.text-muted {
+  color: white !important;
+  font-weight: 200;
+}
 .col img {
     width: 90px;
     height: 90px;
@@ -361,6 +371,7 @@ footer {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
+/* logo css */
 #woke-logo-text {
   padding-bottom: 0px;
   width: 260px;
@@ -372,6 +383,37 @@ footer {
 
 #woke-big {
   padding-left: 0px;
-  font-size: 70px;
+  font-size: 75px;
   font-weight: 700;
 }
+
+/* end of logo css */
+
+/* footer setup */
+.container {
+  max-width: 960px;
+}
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+/* end footer stuff */
+
+
