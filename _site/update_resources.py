@@ -2,7 +2,7 @@ import pandas as pd
 import validators
 import yaml
 import sys
-#from definitions import *
+import random
 
 #validate that user submitted correctly formatted link
 def validate_link(link):
@@ -24,6 +24,8 @@ def update_yml(data, topic):
             if (data not in current_content['data'] 
             and not is_duplicate_link(data['content_link'], current_content['data'])):
                 current_content['data'].append(data)
+                # shuffle list when adding new content 
+                random.shuffle(current_content['data'])
                 with open(file_path, 'w') as outfile:
                     yaml.dump(current_content, outfile, default_flow_style=False)
     except:
