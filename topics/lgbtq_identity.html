@@ -19,7 +19,11 @@ def_source: http://www.rainbowwelcome.org/faq#faq1
       <img class="card-img" src="{{ site.resource_images | sample }}" alt="Stockholder Image">
     </div>
     <div class="card-body">
-      <h4 class="card-title">{{resource.title}}</h4>
+      {% if resource.isIntersectional == true %}
+        <h4 class="card-title">{{resource.title}} <a href="/faq/#intersectionality" class="badge badge-success">Intersectional</a></h4>
+      {% else %}
+         <h4 class="card-title">{{resource.title}}</h4>
+      {% endif %}
        <footer class="blockquote-footer">Submitted by <a href="{{resource.social_media}}"><cite title="Source Title">{{resource.submitted_by}}</cite></a></footer>
       <p class="card-text">{{resource.description}}</p>
       <a href="{{resource.content_link}}" class="btn btn-primary" target="_blank">Learn More</a>
