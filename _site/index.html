@@ -29,7 +29,7 @@
     <meta name="abstract"    content="Helping people learn to be woke."> <!-- Keep uder 100 characters -->
     <meta name="rating"      content="General"> <!-- General, 14 Years, Mature or Restricted -->
     <!-- Open Graph Meta Tags (ogp.me) -->
-    <meta property="og:image"            content="http://localhost:4000/img/logo-black.png">  <!-- Web page thumbnail -->
+    <meta property="og:image"            content="../img/logo-black.png">  <!-- Web page thumbnail -->
     <meta property="og:site_name"        content="So You Want To Be Woke">                     <!-- Web site title -->
     <meta property="og:title"            content="So You Want To Be Woke">                    <!-- Web page title -->
     <meta property="og:description"      content="The path to becoming woke is hard; this site’s meant to help you get there.">  <!-- Web page description -->
@@ -42,13 +42,13 @@
     <meta name="twitter:url" content="https://soyouwanttobewoke.com">
     <meta name="twitter:title" content="So You Want to be Woke">
     <meta name="twitter:description" content="The path to becoming woke is hard; this site’s meant to help you get there.">
-    <meta name="twitter:image" content="http://localhost:4000/img/logo-black.png">
+    <meta name="twitter:image" content="../img/logo-black.png">
 
     <!-- Favicon Meta Tags.  -->
-    <link rel="icon" href="http://localhost:4000/img/favicon.ico">
-    <link rel="icon" href="http://localhost:4000/img/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="http://localhost:4000/img/favicon.ico" sizes="192x192" type="image/png"> 
+    <link rel="icon" href="../img/favicon.ico">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../img/favicon.ico" sizes="192x192" type="image/png"> 
 
 
     <!-- Bootstrap: Latest compiled and minified CSS -->
@@ -57,7 +57,7 @@
     crossorigin="anonymous">
 
     <!-- CSS Files-->
-    <link href="http://localhost:4000/css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -83,27 +83,20 @@
                 
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Topics
+                    Categories
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/topics/ableism">Ableism</a>
-                    <a class="dropdown-item" href="/topics/allyship">Allyship</a>
-                    <a class="dropdown-item" href="/topics/feminism">Feminism</a>
-                    <a class="dropdown-item" href="/topics/gentrification">Gentrification</a>
-                    <a class="dropdown-item" href="/topics/inclusivity">Inclusivity</a>
-                    <a class="dropdown-item" href="/topics/LGBTQ%20Identity">LGBTQ Identity</a>
-                    <a class="dropdown-item" href="/topics/mental%20health">Mental Health</a>
-                    <a class="dropdown-item" href="/topics/racial%20identity">Racial Identity</a>
-                    <a class="dropdown-item" href="/topics/racism">Racism</a>
-                    <a class="dropdown-item" href="/topics/socioeconomic%20privilege">Socioeconomic Privilege</a>
-                                        
-                    
-                    <!--<a class="dropdown-item" href="/topics/Cultural%20Appropriation">Cultural Appropriation</a>
-                    <a class="dropdown-item" href="/topics/islamophobia">Islamophobia</a>
-                    <a class="dropdown-item" href="/topics/dating%20fetishism">Fetishism</a> -->
-                    <div class="dropdown-divider" style="border-color:black;"></div> 
+                    <a class="dropdown-item" href="/category/gender">Gender</a>
+                    <a class="dropdown-item" href="/category/race">Race</a>
+                    <a class="dropdown-item" href="/category/nationality">Nationality</a>
+                    <a class="dropdown-item" href="/category/ability">Ability</a>
+                    <a class="dropdown-item" href="/category/sexuality">Sexuality</a>
+                    <a class="dropdown-item" href="/category/class">Class</a>
+                    <a class="dropdown-item" href="/category/religion">Religion</a>
+                    <a class="dropdown-item" href="/category/age">Age</a>
+                    <!--<div class="dropdown-divider" style="border-color:black;"></div> 
                     <a class="dropdown-item" target="__blank "href="http://bit.ly/wokecontent">Contribute</a>
-                  </div>
+                  </div> -->
 
                   <!--<li class="nav-item">
                   <a class="nav-link" href="/#about">About</a>
@@ -135,37 +128,52 @@
         
         <div id="down-arrow">
   <a href="#about">
-    <img height="100" width="100" src="/img/arrow-white.svg"/> 
+    <img height="100" width="100" src="../img/arrow-white.svg"/> 
   </a>
 </div>
 
         <div id="typed-strings" style="display: none;">
-        <p>racial identity.</p>
-        <p>mental health.</p>
-        <p>racism.</p>
-        <p>gentrification.</p>
-        <p>allyship.</p>
-        <p>feminism.</p>
-        <p>inclusivity.</p>
-        <p>ableism.</p>
-        <p></p>
+        <p>race.</p>
+        <p>ability.</p>
+        <p>nationality.</p>
+        <p>gender.</p>
+        <p>religion.</p>
+        <p>sexuality.</p>
+        <p>class.</p>
+        <p>ageism.</p>
         </div>
 
   </div> 
 
 
                 <div class="row">
-  <div class="col" id="about">
-    <h2>On Wokeness</h2>
 
-    <blockquote class="blockquote text-center">
-  <p class="mb-0"><span id="about-quote">&ldquo;</span>[To be woke] is an encouragement for people to wake up and question dogmatic social norms. It requires an active process of deprogramming social conditionings focusing on consistent efforts to challenge the universal infractions we are all subjected to.
-  	<span id="about-quote">&rdquo;</span></p>
-  	<footer class="blockquote-footer">Raven Cras,<cite title="Source Title"><a href="https://blavity.com/what-does-it-mean-to-be-woke/">"What does it mean to be "woke?"</a></cite></footer>
-	</blockquote>
- 	<p id="about-text"> The goal of this site is simple: to provide a way to educate yourself on your privileges and issues affecting different marginalized communities.<br>Start exploring this site through the featured topics below or the other topics listed at the top of the <a href="#">page</a>. </p>
-    </div>
+	<div class="col" id="about">
+		<h2>On Wokeness</h2>
+    	<img id="about-image" src="https://images.unsplash.com/photo-1531831244964-750f0b40e3b4?ixlib=rb-0.3.5&s=569570e74f4d37a8e3237a7293087190&auto=format&fit=crop&w=1000&q=80"
+    	alt="Image of a woman with hands touching her earrings.">	
+   </div> 
+
+	<div class="col" id="about">
+		<div id="about-quote-block">
+		<blockquote class="blockquote text-center">
+		<p class="mb-0"><span id="about-quote">&ldquo;</span>[To be woke] is an encouragement for people to wake up and question dogmatic social norms. It requires an active process of deprogramming social conditionings focusing on consistent efforts to challenge the universal infractions we are all subjected to.
+		<span id="about-quote">&rdquo;</span></p>
+		<footer class="blockquote-footer">Raven Cras,<cite title="Source Title"><a href="https://blavity.com/what-does-it-mean-to-be-woke/">"What does it mean to be "woke?"</a></cite></footer>
+		</blockquote>
+		</div>
+   </div> 
 </div>
+
+<div class="row">
+	<div class="col" id="about">
+		<p id="about-text"> The goal of this site is simple: to provide a way to educate yourself on your privileges and issues affecting different marginalized communities.<br>Start exploring this site through the featured topics below or the other topics listed at the top of the <a href="#">page</a>. </p>
+	</div>
+
+
+</div> 
+
+		<!-- <p id="about-text"> The goal of this site is simple: to provide a way to educate yourself on your privileges and issues affecting different marginalized communities.<br>Start exploring this site through the featured topics below or the other topics listed at the top of the <a href="#">page</a>. </p> -->
                 <div class="row">
   <div class="col" id="topics-resources">
     <h2 id="featured-topics"> Featured Topics </h2>
@@ -230,7 +238,7 @@
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
-          <img height="95" width="222" src="http://localhost:4000/img/logo-text.png">
+          <img height="64" width="154" src="../img/logo-text.png">
         </div>
         <div class="col-6 col-md">
           <h5>Featured Topics</h5>

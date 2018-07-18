@@ -27,16 +27,27 @@ h1 {
   text-align: center;
   font-size: 20px;
 }
+
+.about-col {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 #about-text p {
   padding-right: 15px;
   font-weight: 200;
   letter-spacing: -0.02em;
 }
 
+img#about-image {
+  height: 320px;
+  width: 320px;
+}
+
 h2 {
     /* font-weight: bold; */
     padding-top: 15px;
-    padding-left: 10px;
+    padding-left: 23px;
 }
 
 h3 {
@@ -110,14 +121,12 @@ footer li {
 }
 
 #about {
-    /* background-color: #e74c3c;  */
     background-color: #fd5c63;
     color:white ;
     word-wrap: break-word;
 }
 
 #faq {
-    background-color:#2c3e50;
     color: white;
     word-wrap: break-word;
     line-height: 22px;
@@ -171,6 +180,25 @@ footer li {
   line-height: 0;
 }
 
+#about-quote-block {
+  position: relative;
+  top: 30%; 
+  padding-left: 0px;
+  margin-left: -60px;
+  position: relative;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #about-quote-block {
+    position: relative;
+    top: 0%; 
+    left: 0%;
+    padding-top: 1vh; 
+    padding-right: 10px;
+    padding-left: 80px;
+  }
+}
 
 a#footer-link {
   font-weight: normal;
@@ -415,5 +443,3 @@ footer {
 
 .overflow-hidden { overflow: hidden; }
 /* end footer stuff */
-
-
