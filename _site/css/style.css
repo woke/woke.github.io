@@ -28,6 +28,11 @@ h1 {
   font-size: 20px;
 }
 
+#about-image-description {
+  padding-left: 150px;
+  width: 470px;
+}
+
 .about-col {
   padding-left: 30px;
   padding-right: 30px;
@@ -198,6 +203,28 @@ footer li {
     padding-right: 10px;
     padding-left: 80px;
   }
+
+  #about-image-description {
+    padding-left: 30px;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about-quote-block {
+    position: relative;
+    top: 0%; 
+    left: 0%;
+    padding-top: 1vh; 
+    padding-right: 10px;
+    padding-left: 80px;
+  }
+
+  #about-image-description {
+    padding-left: 30px;
+    width: 350px;
+  }
+
 }
 
 a#footer-link {
@@ -287,7 +314,7 @@ footer {
 
 #featured-card ,#team-cards .card {
   position: relative;
-  max-width: 24rem;
+  max-width: 18rem;
   border: none;
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5); 
 }
@@ -323,6 +350,8 @@ footer {
   margin-left: -10%;
   transition: all .25s ease-in-out;
 } 
+
+
 
 
 /* resources cards */
