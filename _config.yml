@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.soyouwanttobewoke.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adicu
 github_username:  woke
+
 resource_images: ['https://source.unsplash.com/600x300/?african%20american',
   'https://source.unsplash.com/600x300/?landscape',
   'https://source.unsplash.com/600x300/?nature,water',
@@ -25,10 +26,75 @@ resource_images: ['https://source.unsplash.com/600x300/?african%20american',
   'https://source.unsplash.com/600x300/?black%20skin',
   'https://source.unsplash.com/600x300/?african%20american,family',
   ]
-  
+
+
+gender_images: ['https://source.unsplash.com/600x300/?woman',
+  'https://source.unsplash.com/600x300/?portrait',
+  'https://source.unsplash.com/600x300/?friends',
+  'https://source.unsplash.com/600x300/?gender',
+  'https://source.unsplash.com/600x300/?transgender',
+  'https://source.unsplash.com/600x300/?person',
+  'https://source.unsplash.com/600x300/?talking',
+  'https://source.unsplash.com/600x300/?man',
+]
+
+race_images: ['https://source.unsplash.com/600x300/?african',
+  'https://source.unsplash.com/600x300/?african-american',
+  'https://source.unsplash.com/600x300/?afro',
+  'https://source.unsplash.com/600x300/?latinx',
+  'https://source.unsplash.com/600x300/?diversity',
+  'https://source.unsplash.com/600x300/?asian',
+]
+
+nationality_images: ['https://source.unsplash.com/600x300/?nationality',
+  'https://source.unsplash.com/600x300/?american',
+  'https://source.unsplash.com/600x300/?african',
+  'https://source.unsplash.com/600x300/?friends',
+  'https://source.unsplash.com/600x300/?child',
+  'https://source.unsplash.com/600x300/?community%20service'
+]
+
+ability_images: ['https://source.unsplash.com/600x300/?disability',
+  'https://source.unsplash.com/600x300/?wheelchair',
+  'https://source.unsplash.com/600x300/?chair',
+  'https://source.unsplash.com/600x300/?friends',
+  'https://source.unsplash.com/600x300/?family'
+]
+
+sexuality_images: ['https://source.unsplash.com/600x300/?love',
+  'https://source.unsplash.com/600x300/?gay',
+  'https://source.unsplash.com/600x300/?lesbian',
+  'https://source.unsplash.com/600x300/?love',
+  'https://source.unsplash.com/600x300/?pride',
+  'https://source.unsplash.com/600x300/?kiss',
+  'https://source.unsplash.com/600x300/?relationship'
+]
+
+class_images: ['https://source.unsplash.com/600x300/?class',
+  'https://source.unsplash.com/600x300/?gentrification',
+  'https://source.unsplash.com/600x300/?city',
+  'https://source.unsplash.com/600x300/?rural',
+  'https://source.unsplash.com/600x300/?urban'
+]
+
+religion_images: ['https://source.unsplash.com/600x300/?religion',
+  'https://source.unsplash.com/600x300/?church',
+  'https://source.unsplash.com/600x300/?prayer',
+  'https://source.unsplash.com/600x300/?group',
+  'https://source.unsplash.com/600x300/?praying',
+  'https://source.unsplash.com/600x300/?cathedral',
+]
+
+age_images: ['https://source.unsplash.com/600x300/?young',
+  'https://source.unsplash.com/600x300/?old',
+  'https://source.unsplash.com/600x300/?person',
+  'https://source.unsplash.com/600x300/?friends',
+  'https://source.unsplash.com/600x300/?age',
+  'https://source.unsplash.com/600x300/?group',
+]
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
