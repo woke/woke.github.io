@@ -1,0 +1,33 @@
+---
+layout: topic
+title: Ability
+permalink: /category/ability
+definition: Accessibility can be defined as the "ability to access" the functionality, and possible benefit, of some system or entity and is used to describe the degree to which a product such as a device, service, environment is accessible by as many people as possible.
+def_source: https://www.disabled-world.com/disability/accessibility
+---
+<!-- To make a new page like this one, replace topic in site.data.[topic].data with appropriate file-->
+{% if site.data.ability.data == null %}
+    <div class="alert alert-danger" role="alert">
+      Unfortunately, we don't have any resources for this topic yet. Click <a target="__blank" href="http://bit.ly/wokecontent" class="alert-link"> here</a>
+      to recommend content.
+    </div>
+{% else %}
+  {% for resource in site.data.ability.data %}
+
+  <div class="card">
+    <div class="card-img-body">
+      <img class="card-img" src="{{ site.resource_images | sample }}" alt="Stockholder Image">
+    </div>
+    <div class="card-body">
+      {% if resource.isIntersectional == true %}
+        <h4 class="card-title">{{resource.title}} <a href="/faq#intersectionality" class="badge badge-success">Intersectional</a></h4>
+      {% else %}
+         <h4 class="card-title">{{resource.title}}</h4>
+      {% endif %}
+       <footer class="blockquote-footer">Submitted by <a href="{{resource.social_media}}"><cite title="Source Title">{{resource.submitted_by}}</cite></a></footer>
+      <p class="card-text">{{resource.description}}</p>
+      <a href="{{resource.content_link}}" class="btn btn-primary" target="_blank">Learn More</a>
+      </div>
+  </div>
+  {% endfor %} 
+{% endif %}

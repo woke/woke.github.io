@@ -1,0 +1,33 @@
+---
+layout: topic
+title: Age
+permalink: /category/age
+definition: Ageism is the stereotyping and discrimination against individuals or groups on the basis of their age; ageism can take many forms, including prejudicial attitudes, discriminatory practices, or institutional policies and practices that perpetuate stereotypical beliefs.
+def_source: http://www.who.int/ageing/features/faq-ageism/en/
+---
+<!-- To make a new page like this one, replace topic in site.data.[topic].data with appropriate file-->
+{% if site.data.age.data == null %}
+    <div class="alert alert-danger" role="alert">
+      Unfortunately, we don't have any resources for this topic yet. Click <a target="__blank" href="http://bit.ly/wokecontent" class="alert-link"> here</a>
+      to recommend content.
+    </div>
+{% else %}
+  {% for resource in site.data.age.data %}
+
+  <div class="card">
+    <div class="card-img-body">
+      <img class="card-img" src="{{ site.resource_images | sample }}" alt="Stockholder Image">
+    </div>
+    <div class="card-body">
+      {% if resource.isIntersectional == true %}
+        <h4 class="card-title">{{resource.title}} <a href="/faq#intersectionality" class="badge badge-success">Intersectional</a></h4>
+      {% else %}
+         <h4 class="card-title">{{resource.title}}</h4>
+      {% endif %}
+       <footer class="blockquote-footer">Submitted by <a href="{{resource.social_media}}"><cite title="Source Title">{{resource.submitted_by}}</cite></a></footer>
+      <p class="card-text">{{resource.description}}</p>
+      <a href="{{resource.content_link}}" class="btn btn-primary" target="_blank">Learn More</a>
+      </div>
+  </div>
+  {% endfor %} 
+{% endif %}
