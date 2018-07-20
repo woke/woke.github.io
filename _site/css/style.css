@@ -53,6 +53,10 @@ h2 {
     padding-left: 5px; 
 }
 
+#home-title {
+  padding-left: 5px;
+}
+
 h3 {
     padding-top: 10px;
     font-size: 4vh;
@@ -235,6 +239,9 @@ footer li {
 
   #featured-topic-card {
     max-width: 15rem;
+  }
+  h2 {
+    padding-left: 0px;
   }
 
 }
