@@ -1,12 +1,4 @@
 data:
-- content_link: https://medium.com/@dr_eprice/laziness-does-not-exist-3af27e312d01
-  description: 'Psychological research is clear: when people procrastinate, there''s
-    usually a good reason. This article discusses the impact of mental illness in
-    academia and life in general.'
-  isIntersectional: false
-  social_media: https://twitter.com/lesleyclovesyou
-  submitted_by: Lesley Cordero
-  title: Laziness Does Not Exist
 - content_link: https://advice.shinetext.com/articles/in-honor-of-mental-health-month-lets-get-real-about-how-we-feel/?utm_source=Shine&utm_medium=Twitter
   description: This is a great article that helps you think about how you feel and
     how to approach thinking about and expressing your feelings.
@@ -14,40 +6,6 @@ data:
   social_media: https://twitter.com/YefriGaitan1
   submitted_by: Yefri Gaitan
   title: In Honor of Mental Health Month, Let's Get Real About How We Feel
-- content_link: https://everydayfeminism.com/2013/10/avoid-everyday-ableism/
-  description: 'This article provides 10 good examples of ways to support people with
-    disabilities by recognizing your privilege as an able-bodied person. (Note: this
-    article focuses primarily on physical disabilities)'
-  isIntersectional: false
-  social_media: https://twitter.com/WillEssilfie
-  submitted_by: Will Essilfie
-  title: 10 Ways to Avoid Everyday Ableism
-- content_link: http://rampyourvoice.com/2016/05/05/black-disabled-woman-syllabus-compilation/
-  description: 'This site is a great resource to learn about the plight of disabled
-    people, especially disabled women of color. Vilissa Thompson, LMSW, the woman
-    behind the site, has created a list of informative resources for understanding
-    the Black disabled experience. '
-  isIntersectional: true
-  social_media: https://twitter.com/WillEssilfie
-  submitted_by: Will Essilfie
-  title: 'Black Disabled Woman Syllabus: A Compilation'
-- content_link: https://www.bustle.com/articles/189329-14-tweets-that-explain-what-disability-discrimination-is-like-because-it-happens-everywhere
-  description: This article provides numerous examples of ways in which able-bodied
-    people knowingly and unknowingly discriminate against people with disabilities.
-    It is a good read and an important one to remember.
-  isIntersectional: false
-  social_media: https://twitter.com/WillEssilfie
-  submitted_by: Will Essilfie
-  title: 14 Tweets That Explain What Disability Discrimination Is Like, Because It
-    Happens Everywhere
-- content_link: https://everydayfeminism.com/2018/07/queer-disabled-millennial-workaholic/
-  description: This article talks about intersectionality of disability, sexuality,
-    race, and class and how it relates to working under a capitalist society.
-  isIntersectional: true
-  social_media: https://twitter.com/lesleyclovesyou
-  submitted_by: Lesley Cordero
-  title: "I\u2019m A Queer and Disabled Millennial, and That\u2019s Why I\u2019m a\
-    \ Workaholic"
 - content_link: https://www.bustle.com/articles/186060-13-microaggressions-people-with-disabilities-face-on-a-daily-basis
   description: To be able to help fight ableism, you need to understand disabilities
     aren't a negative thing. This article does a great job explaining some of the
@@ -57,6 +15,56 @@ data:
   social_media: https://twitter.com/WillEssilfie
   submitted_by: Will Essilfie
   title: 13 Microaggressions People With Disabilities Face On A Daily Basis
+- content_link: https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/
+  description: The spoon theory is a disability metaphor used to explain the reduced
+    amount of energy available for activities of living and productive tasks that
+    may result from disability or chronic illness. This article is the origin of the
+    term and a must-read.
+  isIntersectional: false
+  social_media: https://twitter.com/lesleyclovesyou
+  submitted_by: Lesley Cordero
+  title: The Spoon Theory
+- content_link: https://www.bustle.com/articles/189329-14-tweets-that-explain-what-disability-discrimination-is-like-because-it-happens-everywhere
+  description: This article provides numerous examples of ways in which able-bodied
+    people knowingly and unknowingly discriminate against people with disabilities.
+    It is a good read and an important one to remember.
+  isIntersectional: false
+  social_media: https://twitter.com/WillEssilfie
+  submitted_by: Will Essilfie
+  title: 14 Tweets That Explain What Disability Discrimination Is Like, Because It
+    Happens Everywhere
+- content_link: http://rampyourvoice.com/2016/05/05/black-disabled-woman-syllabus-compilation/
+  description: 'This site is a great resource to learn about the plight of disabled
+    people, especially disabled women of color. Vilissa Thompson, LMSW, the woman
+    behind the site, has created a list of informative resources for understanding
+    the Black disabled experience. '
+  isIntersectional: true
+  social_media: https://twitter.com/WillEssilfie
+  submitted_by: Will Essilfie
+  title: 'Black Disabled Woman Syllabus: A Compilation'
+- content_link: https://mic.com/articles/142534/why-we-need-to-talk-about-racism-as-a-mental-health-trigger#.7AkD8ZwcR
+  description: 'This article discusses the ways in which racism can affect mental
+    health for people of color. '
+  isIntersectional: true
+  social_media: https://twitter.com/lesleyclovesyou
+  submitted_by: Lesley Cordero
+  title: Why We Need to Talk About Racism as a Mental-Health Trigger
+- content_link: https://medium.com/@dr_eprice/laziness-does-not-exist-3af27e312d01
+  description: 'Psychological research is clear: when people procrastinate, there''s
+    usually a good reason. This article discusses the impact of mental illness in
+    academia and life in general.'
+  isIntersectional: false
+  social_media: https://twitter.com/lesleyclovesyou
+  submitted_by: Lesley Cordero
+  title: Laziness Does Not Exist
+- content_link: https://everydayfeminism.com/2018/07/queer-disabled-millennial-workaholic/
+  description: This article talks about intersectionality of disability, sexuality,
+    race, and class and how it relates to working under a capitalist society.
+  isIntersectional: true
+  social_media: https://twitter.com/lesleyclovesyou
+  submitted_by: Lesley Cordero
+  title: "I\u2019m A Queer and Disabled Millennial, and That\u2019s Why I\u2019m a\
+    \ Workaholic"
 - content_link: https://www.cjr.org/the_feature/journalism-disability-beat.php
   description: This article explores a lot of the problems with "inspiration porn",
     the practice of portraying stories about people with disabilities with those people
@@ -67,6 +75,14 @@ data:
   social_media: https://twitter.com/WillEssilfie
   submitted_by: Will Essilfie
   title: What journalists can do better to cover the disability beat
+- content_link: https://everydayfeminism.com/2013/10/avoid-everyday-ableism/
+  description: 'This article provides 10 good examples of ways to support people with
+    disabilities by recognizing your privilege as an able-bodied person. (Note: this
+    article focuses primarily on physical disabilities)'
+  isIntersectional: false
+  social_media: https://twitter.com/WillEssilfie
+  submitted_by: Will Essilfie
+  title: 10 Ways to Avoid Everyday Ableism
 - content_link: https://everydayfeminism.com/2018/05/a-cure-for-ableism/
   description: There's a common misconception that people with disabilities (PWD)
     desire to be "cured." Yet, that is not always the case. Rather than assuming disabilities
@@ -77,10 +93,10 @@ data:
   submitted_by: Will Essilfie
   title: "Disabled People Don\u2019t Need To Be \u201CFixed\u201D \u2014 We Need A\
     \ Cure For Ableism"
-- content_link: https://mic.com/articles/142534/why-we-need-to-talk-about-racism-as-a-mental-health-trigger#.7AkD8ZwcR
-  description: 'This article discusses the ways in which racism can affect mental
-    health for people of color. '
-  isIntersectional: true
+- content_link: https://www.youtube.com/watch?v=4IBH0pcKzlY&feature=youtu.be&a
+  description: 'Learn about how the straw ban negatively affects many disabled people
+    through this YouTube video. '
+  isIntersectional: false
   social_media: https://twitter.com/lesleyclovesyou
   submitted_by: Lesley Cordero
-  title: Why We Need to Talk About Racism as a Mental-Health Trigger
+  title: 'Banning Straws Hurts People '
