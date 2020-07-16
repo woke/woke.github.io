@@ -1,7 +1,9 @@
 <a href="url"><img src="https://github.com/wessilfie/soyouwanttobewoke/blob/master/static/img/logo-black.png" align="middle" height="370" width="690" ></a>
 
 # So You Want To Be Woke
-> The path to becoming woke is hard; this site’s meant to help you get there.
+> The path to becoming woke is hard; this site’s meant to help you get there. 
+
+Visit the site [here](https://www.soyouwanttobewoke.com/).
 
 This site was created to help people become more aware of the issues facing different marginalized communities. 
 Some of these topics may be ones you are aware of and others not. By making this site, we hope to help people 
